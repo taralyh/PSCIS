@@ -29,7 +29,7 @@ jobs:
         max_attempts: 3
         shell: bash
         command: |
-          conda env update --file AGO-Admin/Credentials-Check/requirements.yaml --name pscis_env
+          conda env update --file survey_to_esf/requirements.yaml --name pscis_env
           conda env list
           conda init bash
           . ~/.bashrc
