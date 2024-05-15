@@ -1,4 +1,4 @@
-name: GeoHub COP Credentials Check
+name: Hello World?
 
 on:
   schedule:
@@ -48,5 +48,5 @@ jobs:
         # python script, and you likley need to say python3 vs just python
         conda init bash
         . ~/.bashrc
-        conda activate bier_env
+        conda activate pscis_env
         python3 survey_to_esf/pscis_main.py
