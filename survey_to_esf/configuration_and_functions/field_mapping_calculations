@@ -1,1 +1,2 @@
-print("How are you?")
+def test_function():
+  print("How are you?")
