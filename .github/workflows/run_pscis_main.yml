@@ -38,10 +38,9 @@ jobs:
     - name: Run script
       shell: bash
       #env:
-        #AGO_PORTAL_URL: ${{secrets.AGO_PORTAL_URL}}
-        #AGO_USER: ${{secrets.COPUSER_USER}}
-        #AGO_PASS: ${{secrets.COPUSER_PASS}}
-        #BIER_TEAMS_WEBHOOK: ${{secrets.BIER_TEAMS_WEBHOOK}}
+        #AGO_PORTAL_URL: ${{secrets.SC_PORTAL_URL}}
+        #AGO_USER: ${{secrets.SC_USER}}
+        #AGO_PASS: ${{secrets.SC_PASSWORD}}
 
       run: |
         # you may have to activate the environment before running the 
